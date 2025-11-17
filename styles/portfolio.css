@@ -1,0 +1,142 @@
+/* nav style */
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* shared style */
+.text-primary{
+   color:#FD6E0A;
+}
+
+.header{
+background-image: url('../images/developer.png'),url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position:top-left,bottom-right;
+
+}
+
+.secondary-bg{
+   background-color: #FFF8F3;
+
+}
+
+.section-title{
+   font-size:#FD6E0A;
+   font-weight: bold;
+   color:#181818;
+
+}
+.section-description
+{
+   font-size:18px;
+    color:#757575;
+}
+.btn-primary{
+   background-color:#FD6E0A;
+   font-size:20px;
+   font-weight: bold;
+   color:white;
+   padding:10px 25px;
+   border-radius:5px ;
+   border:none;
+
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+   margin:0px 20px;
+}
+.nav-title{
+   font-weight: 800;
+   font-size:45px;
+
+}
+nav ul li{
+   list-style:none;
+   margin-right:51px;
+}
+nav ul{
+   display: flex;
+   align-items: center;
+
+}
+nav li a{
+   text-decoration: none;
+   font: size 20px;
+}
+
+.derk{
+   color: #474747;
+}
+/* banner styles */
+.banner-greeting{
+   font-size:45px;
+   font-weight: 600;
+}
+
+.banner-content{
+   max-width: 50;
+}
+
+.banner{
+   display: flex;
+   justify-content: space-between;
+   margin:0 35px 110px;
+}
+
+.banner-title{
+   font-weight:bold;
+   font-size:65px
+}
+.banner-profile-pic{
+   width:200px;
+
+}
+
+/* main */
+main{
+   max-width: 1140px;
+   margin:0 auto;
+
+}
+
+main section{
+    margin-top:130px;
+   margin-bottom:130px;
+   
+} 
+
+/* about */
+.about{
+   border-radius: 10px;
+   padding:130px 150px;
+   text-align: center;
+  
+}
+
+.about-items{
+   display: flex;
+   justify-content:space-around;
+}
+item-description{
+   font-weight: bold;
+
+}
+/* skill contanier */
+
+
+.skill-container{
+   display: flex;
+   gap:24px;
+
+}
+.skill-description{
+   padding:30px;
+   box-shadow:0px 6px 50px 0px black;
+}
